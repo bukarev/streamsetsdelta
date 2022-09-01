@@ -1,4 +1,4 @@
-Upload the following Java libraries to external resources of a Data Collector (or use the archive file lib.tgz in this repo, if you don't feel like collecting the linraries in Maven repository):
+Upload the following Java libraries to external resources of a Data Collector (or use those provided in the /lib folder in this repo, if you don't feel like collecting the linraries in Maven repository):
 |Jar file|
 |---|
 |arquet-hadoop-1.12.3.jar|
