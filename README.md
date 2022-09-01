@@ -1,3 +1,6 @@
+This implementation is Microsoft Azure based.
+Register an application in Azure. You should have tenant ID, client ID and client secret. Add that application to Storage Blob Contributors role of the storage account you are going to use.
+
 Upload the following Java libraries to external resources of a Data Collector (or use those provided in the /lib folder in this repo, if you don't feel like collecting the linraries in Maven repository):
 |Jar file|
 |---|
