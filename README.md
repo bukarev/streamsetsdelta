@@ -49,4 +49,4 @@ Add the code from he provided file delta_write.groovy into Groovy Evaluator. In 
 - use pipeline parameters functionality for storage account, container, or Delta table;
 - use ${runtime:conf} functionality of SDC to pick authorisation values from secured config files.
 
-Your pipeline should look like this: (Data Source) -> (Schema Generator) -> (Groovy Evaluator) -> (Trash)
+Your pipeline should look like this: (Origin) -> (Anything Else) -> (Schema Generator) -> (Groovy Evaluator) -> (Trash)
