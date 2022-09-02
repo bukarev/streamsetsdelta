@@ -47,6 +47,6 @@ The Schema Generator should have configuration like in the screenshot below:
 
 Add the code from he provided file delta_write.groovy into Groovy Evaluator. In the Groovy code, find the class Сonstants and fill in values for your registered Azure app, storage account and Delta table name. Values in this class don't have to be hardcoded, you can:
 - use pipeline parameters functionality for storage account, container, or Delta table;
-- use ${runtime:conf} functionality of SDC to pick authorisation values from secured confid files.
+- use ${runtime:conf} functionality of SDC to pick authorisation values from secured config files.
 
 Your pipeline should look like this: (Data Source) -> (Schema Generator) -> (Groovy Evaluator) -> (Trash)
